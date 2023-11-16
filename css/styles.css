@@ -1306,6 +1306,7 @@ screen and (min-device-pixel-ratio: 2) {
 .page-footer {  
     background-color: #2E2F42;
     padding: 100px 0;
+    text-align: left;
     
 }
 
@@ -1368,8 +1369,7 @@ screen and (min-device-pixel-ratio: 2) {
 
 .icons-container {
     align-items: baseline;
-    margin-right: 120px;
-    
+   
 }
 
 .icons-text {
@@ -1379,6 +1379,7 @@ screen and (min-device-pixel-ratio: 2) {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: left;
 }
 
 .sotial-list-footer {
@@ -1388,6 +1389,7 @@ screen and (min-device-pixel-ratio: 2) {
     justify-content: center;
     align-items: center;  
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .sotial-list {
@@ -1465,13 +1467,11 @@ screen and (min-device-pixel-ratio: 2) {
     width: 768px;
     flex-direction: row;
     flex-wrap: wrap;
-   
+    padding-left: 108px;
     
 }
 
-.elements-weight {
-    margin-right: 120px;
-}
+
 
 .order-service-btn-footer {
     min-width: 165px;
@@ -1489,6 +1489,8 @@ screen and (min-device-pixel-ratio: 2) {
     border: none;
     background-color: #4D5AE5;
     border-radius: 4px; 
+    margin-top: 0;
+    gap: 24px;
 }
     
 
@@ -1522,6 +1524,11 @@ screen and (min-device-pixel-ratio: 2) {
 
 .footer-input::placeholder {
     color: #ffffff; 
+}
+
+.input-style-button {
+    display: flex;
+    gap: 24px;
 }
 
 
@@ -1907,7 +1914,7 @@ screen and (min-device-pixel-ratio: 2) {
 
 .icons-container {
     align-items: baseline;
-    margin-right: 120px;
+    margin-right: 0;
     
 }
 
@@ -2002,17 +2009,15 @@ screen and (min-device-pixel-ratio: 2) {
 }
 .container-footer {
     display: flex;
-    align-items: baseline;
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 15px;
-   
-    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 16px;
 }
 
 .elements-weight {
-    margin-right: 120px;
+    margin-right: 0;
 }
 
 .order-service-btn-footer {
