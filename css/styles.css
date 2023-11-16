@@ -685,7 +685,6 @@ screen and (min-device-pixel-ratio: 2) {
     column-gap: 24px;
     row-gap: 72px;
     display: flex;
-    
 }
 
 .section-title {
