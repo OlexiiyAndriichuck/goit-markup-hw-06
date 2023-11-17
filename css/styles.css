@@ -1508,6 +1508,17 @@ screen and (min-device-pixel-ratio: 2) {
     color: #404BBF;
    
     }
+
+    .menu-contacts {
+        color: #434455;
+        font-size: 16px;
+        line-height: 1,15;
+        letter-spacing: 0.02em;
+        word-wrap: break-word;
+        font-style: normal;
+        font-weight: 400;
+        grid-column: 12px;
+    }
     /* ---/COMP HEADER STYLES--- */
 
      /* ---COMP HEADER STYLES--- */
